@@ -1,1 +1,3 @@
-..WIP..
+# Bump version
+
+`$ npm run dist
