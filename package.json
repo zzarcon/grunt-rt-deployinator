@@ -1,7 +1,7 @@
 {
   "name": "grunt-rt-deployinator",
   "description": "Grunt task for lightning fast deployments of JavaScript Apps.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/LevelbossMike/grunt-rt-deployinator",
   "author": {
     "name": "Michael Klein",
@@ -38,7 +38,7 @@
   "keywords": [
     "gruntplugin"
   ],
-  "dependencies": {  
+  "dependencies": {
     "deployinator": "git+ssh://git@github.com:zzarcon/deployinator.git#master",
     "rsvp": "^3.0.9"
   }
