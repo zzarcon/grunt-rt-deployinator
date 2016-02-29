@@ -39,7 +39,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "deployinator": "git+ssh://git@github.com:zzarcon/deployinator.git#master",
+    "deployinator": "git+ssh://git@github.com:zzarcon/deployinator.git#1.0.0",
     "rsvp": "^3.0.9"
   }
 }
