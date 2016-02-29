@@ -20,11 +20,8 @@ module.exports = function(grunt) {
     var done = this.async();
 
     var options = this.options({});
-    console.log('options', options);
     var deploy = new Deploy(options);
-    console.log('deploy', deploy);
     var success = function() {
-      console.log('key', deploy.key);
       grunt.log.ok('Upload: ' + deploy.key +  ' successful!');
       done();
     };
@@ -46,7 +43,6 @@ module.exports = function(grunt) {
     };
 
     var deployFileContent = function(filepath) {
-      console.log('deployFileContent', grunt.file.read(filepath));
       deploy.upload(grunt.file.read(filepath))
         .then(success, error);
     };
