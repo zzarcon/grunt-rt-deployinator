@@ -20,6 +20,8 @@ module.exports = function(grunt) {
     var done = this.async();
 
     var options = this.options({});
+    var customSha = options.customSha;
+
     var deploy = new Deploy(options);
     var success = function() {
       grunt.log.ok('Upload: ' + deploy.key +  ' successful!');
@@ -43,7 +45,7 @@ module.exports = function(grunt) {
     };
 
     var deployFileContent = function(filepath) {
-      deploy.upload(grunt.file.read(filepath))
+      deploy.upload(grunt.file.read(filepath), customSha)
         .then(success, error);
     };
 
