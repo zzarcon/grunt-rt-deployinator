@@ -40,7 +40,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "deployinator": "git://github.com/zzarcon/deployinator.git#v1.0.2",
+    "deployinator": "git://github.com/zzarcon/deployinator.git#v1.0.3",
     "rsvp": "^3.0.9"
   }
 }
