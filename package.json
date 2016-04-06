@@ -1,7 +1,7 @@
 {
   "name": "grunt-rt-deployinator",
   "description": "Grunt task for lightning fast deployments of JavaScript Apps.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/LevelbossMike/grunt-rt-deployinator",
   "author": {
     "name": "Michael Klein",
